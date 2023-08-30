@@ -7,7 +7,7 @@ Según tarjeta e importe permite calcular las tasas de servicio
 ### Caracteristicas
 - Informando marca de tarjeta e importe calcula el interés  
 - Se emplea varias capas en la arquitectura (Controller, UseCase, Entity y Exception)
-- Si la tarjeta esta mal nombrada ó el importe es menos de 1000 envia un mensaje correspondiente por consola según sea el error.
+- Si la tarjeta esta mal nombrada ó el importe es menos de 1000 envia un mensaje correspondiente via Json según sea el error.
 
 ### Requerimientos para su uso:  
 - URL: http://localhost:8080/api/tasas
