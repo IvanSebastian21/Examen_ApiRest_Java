@@ -1,9 +1,10 @@
 # ApiRest en Java con SpringBoot
-## ¿En que consiste la App?  
+## Ejercicio 2
+### ¿En que consiste la App?  
 Este desarrollo facilita el procesamiento de operaciones financieras con tarjetas de crédito.
-## ¿Que solución cumple? 
+### ¿Que solución cumple? 
 Según tarjeta e importe permite calcular las tasas de servicio 
-## Caracteristicas
+### Caracteristicas
 - Informando marca de tarjeta e importe calcula el interés  
 - Se emplea varias capas en la arquitectura (Controller, UseCase, Entity y Exception)
 - Si la tarjeta esta mal nombrada ó el importe es menos de 1000 envia un mensaje correspondiente por consola según sea el error.
